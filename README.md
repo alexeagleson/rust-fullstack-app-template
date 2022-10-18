@@ -27,6 +27,8 @@ Once both are running you can access the app on [http://localhost:5173/]()
 
 The complete tutorial on how this project was built follows below:
 
+# Contents 
+
 1. [Motivation](#motivation)
 1. [Project Setup](#project-setup)
 1. [Rust Server](#rust-server)
@@ -361,7 +363,7 @@ img {
 
 Next, update your `App.tsx` to include the following.  You can feel free to change the avatar URLs if you choose.  Make sure you don't miss the `import "App.css";` in there!
 
-```client/src/App.tsx`
+`client/src/App.tsx`
 ```tsx
 import { useEffect, useState } from "react";
 import { Person } from "./types";

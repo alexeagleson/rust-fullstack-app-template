@@ -2,6 +2,13 @@
 edition = "2021"
 name = "fullstack-app"
 version = "0.1.0"
+authors = ["Alex Eagleson <alexeagleson@gmail.com>"]
+description = "A simple template for a fullstack app with Rust backend and React frontend"
+homepage = "https://github.com/alexeagleson/typester"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/alexeagleson/typester"
+rust-version = "1.63"
 
 [dependencies]
 axum = "0.5.16"
